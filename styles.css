@@ -146,3 +146,18 @@ footer {
         color: rgb(184, 196, 207);
     }
 }
+
+@media only screen and (max-width: 480px) {
+    #what {
+        margin: 0 0 20px 0;
+    }
+    
+    .item {
+        margin: 0 0 10px 0;
+    }
+    
+    .item img {
+        height: 15em;
+        margin: 0.625em;
+    }
+}
