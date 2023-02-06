@@ -28,6 +28,7 @@ h4,
 p {
     margin: 0;
     font-family: 'Aboreto', cursive;
+    display: block;
 }
 
 h2 {
@@ -52,7 +53,6 @@ p {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
     /* border: 1px solid red; */
 }
 
@@ -93,13 +93,12 @@ main {
     align-content: center;
     min-height: 500px;
     max-height: 1200px;
-
     background-image: url("./images/boat-4899802.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100%;
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
 
 .banner {
@@ -108,6 +107,21 @@ main {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     padding: .75rem 0;
+}
+
+/* What */
+
+#what {
+    margin: 0 0 20px 0;
+}
+
+.item {
+    margin: 0 0 10px 0;
+}
+
+.item img {
+    height: 15rem;
+    margin: 10px;
 }
 
 /* Contact */
@@ -125,4 +139,10 @@ main {
 
 footer {
     font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    a:hover {
+        color: rgb(184, 196, 207);
+    }
 }
