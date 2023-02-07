@@ -46,7 +46,7 @@ li {
 }
 
 p {
-    margin: 0;
+    width: 90%;
 }
 
 .container {
@@ -139,26 +139,4 @@ main {
 
 footer {
     font-size: 0.75rem;
-}
-
-@media only screen and (max-width: 1024px) {
-    a:hover {
-        color: rgb(184, 196, 207);
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    #what {
-        margin: 0 0 20px 0;
-        width: 90%;
-    }
-    
-    .item {
-        margin: 0 0 10px 0;
-    }
-    
-    .item img {
-        margin: 0.625em;
-        height: 150px;
-    }
 }
