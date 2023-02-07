@@ -28,7 +28,6 @@ h4,
 p {
     margin: 0;
     font-family: 'Aboreto', cursive;
-    display: block;
 }
 
 h2 {
@@ -121,7 +120,7 @@ main {
 }
 
 .item img {
-    height: 15rem;
+    width: 400px;
     margin: 10px;
 }
 
