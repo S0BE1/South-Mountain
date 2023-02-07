@@ -44,15 +44,15 @@ li {
     margin: 0 0 0.625rem 0;
 }
 
-p {
-    margin: 0;
-}
-
 .container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     /* border: 1px solid red; */
+}
+
+#what .paragraph {
+    margin-bottom: 1rem;
 }
 
 section {
@@ -154,13 +154,44 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.75rem;
+    }
+    
+    h3 {
+        font-size: 1.75rem;
+    }
+    
+    p {
+        font-size: 1.25rem;
+    }
+
+    header {
+        padding: 0.75rem;
+    }
+
+    header a {
+        padding: 0.3rem
+    }
+    
+    a {
+        font-size: 0.57em;
+    }
+
     .container {
         display: block;
+    }
+
+    main {
+        padding-top: 125.6px;
     }
     
     #what {
         margin: 0 0 20px 0;
-        width: 90%;
     }
     
     .item {
@@ -170,5 +201,9 @@ footer {
     .item img {
         width: 100%;
         margin: 0
+    }
+
+    footer p {
+        font-size: 0.75rem;
     }
 }
