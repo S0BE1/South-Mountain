@@ -141,6 +141,11 @@ main {
     font-size: 1rem;
 }
 
+#contact img {
+    height: 50px;
+    padding-top: 1rem;
+}
+
 /* Footer */
 
 footer {
